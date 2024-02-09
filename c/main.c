@@ -1,6 +1,7 @@
 #include "data-structures/stack.h"
 #include "stdio.h"
 
+// Would be good to implement a kinda generics in the stack struct.
 int main()
 {
   stack_t stack = stack_c();
