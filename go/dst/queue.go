@@ -11,7 +11,7 @@ type Queue[T any] struct {
 	Count int32
 }
 
-func CreateQueue[T any]() Queue[T] {
+func QueueCreate[T any]() Queue[T] {
 	return Queue[T]{start: nil, end: nil, Count: 0}
 }
 

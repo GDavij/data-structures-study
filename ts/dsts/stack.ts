@@ -22,7 +22,7 @@ export class Stack<T> {
             return null;
         }
 
-        this.numberOfElements++;
+        this.numberOfElements--;
         return element;
     }
 }
